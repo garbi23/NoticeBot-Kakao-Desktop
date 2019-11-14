@@ -27,7 +27,9 @@ namespace NoticeBot
         {
             string name = textBox1.Text;
             string context = textBox2.Text;
-            katalkactive[0] = new KakaotalkActive("우리자기", "테스트");
+            katalkactive[1] = new KakaotalkActive("창의적공학", "테스트");
+            katalkactive[2] = new KakaotalkActive("이든", "테스트");
+            katalkactive[3] = new KakaotalkActive("최태운", "테스트");
 
         }
     }

@@ -60,7 +60,7 @@ namespace NoticeBot
             IntPtr talktexthd = FindWindowEx(talkhd, IntPtr.Zero, "RichEdit20W", "");
             SendMessage(talktexthd, 0x000c, IntPtr.Zero, context);
             PostMessage(talktexthd, 0x0100, 0xD, 0x1C001);
-            Thread.Sleep(200);
+            Thread.Sleep(100);
             SendMessage(talkhd, 0x0010, IntPtr.Zero, "0");
 
         }
